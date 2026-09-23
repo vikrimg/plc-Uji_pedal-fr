@@ -7,9 +7,9 @@ BEGIN
   Bars:=6;
   Bar[0]:=0;
   Bar[1]:=59415;
-  Bar[2]:=59416;
-  Bar[3]:=59412;
-  Bar[4]:=59414;
+  Bar[2]:=59414;
+  Bar[3]:=59416;
+  Bar[4]:=59412;
   Bar[5]:=0;
   Style:=0;
   ExStyle:=0;
@@ -51,10 +51,11 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
-  Pos:="772 5";
+  Visible:=0;
+  Pos:="964 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="772 5 1536 185";
+  MRUDockPos:="964 5 1920 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -63,7 +64,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="764 180";
+  MRUHorzDock:="956 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -76,10 +77,10 @@ BEGIN
  BEGIN
   BarID:=59412;
   Visible:=0;
-  Pos:="572 5";
+  Pos:="716 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="572 5 1136 185";
+  MRUDockPos:="716 5 1424 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -88,7 +89,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="564 180";
+  MRUHorzDock:="708 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -104,7 +105,7 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 566 185";
+  MRUDockPos:="1 5 710 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -113,7 +114,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="565 180";
+  MRUHorzDock:="709 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -128,7 +129,7 @@ BEGIN
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="0 -2 300 543";
+  MRUDockPos:="0 -2 300 663";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=8084;
@@ -138,7 +139,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="300 545";
+  MRUVertDock:="300 665";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -152,16 +153,16 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 766 185";
+  MRUDockPos:="1 5 1920 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="500000";
+  PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="765 180";
+  MRUHorzDock:="1919 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -171,23 +172,23 @@ BEGIN
   ResourceID:=0;
  END;
  Bars:=7;
- Screen:="1536 960";
+ Screen:="1920 1080";
 END;
 ProjectTree:=
 BEGIN
  Item[0]:=0;
  Item[1]:=2;
- Item[2]:=13;
- Item[3]:=14;
+ Item[2]:=12;
+ Item[3]:=13;
  ItemCount:=4;
  Sumcheck:=43;
- Selected:=18;
+ Selected:=17;
 END;
 Frame[0]:=
 BEGIN
  Norm:="0156 0156 1152 0652";
  Min:="-001 -001";
- Path:="C:\Users\USER-LPPOM-092\Downloads\Program PLC uji pedal\Program PLC\2026-09-05 Uji pedal_NEW.cxp";
+ Path:="C:\Users\Vikri Muhammad Gafar\Documents\work\Freelance\Uji Pedal\plc\2026-09-05 Uji pedal_NEW.cxp";
  Access:="PROJECT:!NewProject.Resources.NewResource1";
  Type:=6;
  Views:=
@@ -210,7 +211,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=166;
+   Yscroll:=94;
   END;
   nViews:=1;
  END;
